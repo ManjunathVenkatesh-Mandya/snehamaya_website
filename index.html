@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Snehamaya Foundation</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f7f7f7;
+        }
+
+        header {
+            background: #6a1b9a;
+            color: white;
+            padding: 20px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            font-size: 26px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #7b1fa2, #e91e63);
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .hero h2 {
+            font-size: 42px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 20px;
+            max-width: 700px;
+            margin: auto;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 12px 25px;
+            background: white;
+            color: #6a1b9a;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 60px 20px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        section h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #6a1b9a;
+        }
+
+        .about {
+            text-align: center;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .cards {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            width: 300px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .card h3 {
+            color: #e91e63;
+            margin-bottom: 10px;
+        }
+
+        .contact {
+            text-align: center;
+            background: white;
+            border-radius: 8px;
+        }
+
+        footer {
+            text-align: center;
+            background: #333;
+            color: white;
+            padding: 20px;
+        }
+
+        @media (max-width: 700px) {
+            header {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .hero h2 {
+                font-size: 32px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Snehamaya Foundation</h1>
+
+        <nav>
+            <a href="#about">About</a>
+            <a href="#programs">Programs</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+
+    <section class="hero">
+        <h2>Everyone Deserves to Belong</h2>
+
+        <p>
+            Snehamaya Foundation works to support queer people,
+            promote dignity and inclusion, and build a community
+            where everyone can live authentically.
+        </p>
+
+        <a href="#contact" class="button">Get Involved</a>
+    </section>
+
+
+    <section id="about">
+        <h2>About Us</h2>
+
+        <div class="about">
+            <p>
+                Snehamaya Foundation is a community-focused organization
+                working with queer people and allies. We aim to create
+                safe, supportive spaces and improve awareness, inclusion,
+                and access to community resources.
+            </p>
+        </div>
+    </section>
+
+
+    <section id="programs">
+        <h2>What We Do</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>Community Support</h3>
+                <p>
+                    Creating welcoming spaces where queer individuals
+                    can connect, share experiences, and find support.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Awareness</h3>
+                <p>
+                    Promoting understanding and respectful conversations
+                    about gender identity, sexual orientation, and inclusion.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Empowerment</h3>
+                <p>
+                    Supporting individuals through educational resources,
+                    community programs, and opportunities for personal growth.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="contact" class="contact">
+        <h2>Get Involved</h2>
+
+        <p>
+            Interested in supporting our work or connecting with the
+            Snehamaya Foundation community?
+        </p>
+
+        <br>
+
+        <p>
+            Email: hello@snehamaya.org
+        </p>
+
+        <a href="mailto:hello@snehamaya.org" class="button">
+            Contact Us
+        </a>
+    </section>
+
+
+    <footer>
+        <p>&copy; 2026 Snehamaya Foundation. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
